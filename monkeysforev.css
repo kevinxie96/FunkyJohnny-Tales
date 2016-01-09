@@ -1,0 +1,262 @@
+.learn-more{
+  margin-top: 80px;
+
+
+}
+.slide {
+  font-size: 50px; 
+  font-family: "Old Standard TT", serif; 
+  position: absolute; 
+  color: rgb(0,0,51);
+    text-shadow: 3px 3px white; 
+  bottom: -90px;
+  left: -60px;
+
+
+}
+.disappear{
+  display: none;
+
+
+}
+
+.aboutme{
+  background-color: white;
+  border: 5px solid rgb(0,0,51);
+  border-radius: 5px;
+  display: none;
+  font-size: 20px;
+  padding: 8px 8px 8px 8px;
+  margin: 10px 0 10px 0;
+  font-family: "Old Standard TT", serif; 
+  
+}
+
+.wrap {
+	display: inline-block;
+	position: relative;
+
+
+}
+
+body {
+color: rgb(0,0,51);
+background-image: url("new.png");
+
+}
+div.relative{
+  display: none;
+	  position: relative;
+	  font-family: "Old Standard TT", serif;
+    
+    border: 5px solid red;
+   background-color: white;
+    font-size: 100px;
+   font-weight: 900;
+
+   border-left-width: 6px;
+    border-right-width: 6px;	
+   
+
+
+}
+
+div.story
+{
+	background-color: rgb(233,233,233);
+	font-family: "Old Standard TT", serif;
+	font-size: 24px;
+	border-radius: 10px;
+	padding: 40px 40px 40px 40px;
+	margin: 10px 10px 10px 10px;
+}
+
+
+    
+.nav ul li a{
+        display: block;
+        padding: 8px 24px;
+        
+    }
+
+.fix{
+	display: none;
+	padding: 0 0 20px 0;
+
+}
+
+.jumbotron {
+	background-color: rgb(233,233,233);
+	
+
+
+}
+.jumbotronx {
+
+  background-color: rgb(233,233,233);
+  padding: 10px 10px 10px 10px;
+
+
+}
+#rotating-item-wrapper {
+    position: relative;
+    width: 980px;
+    height: 347px;
+    
+}
+.rotating-item {
+    display: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    
+}
+
+
+
+  nav.sidebar{
+    -webkit-transition: margin 300ms ease-out;
+      -moz-transition: margin 300ms ease-out;
+      -o-transition: margin 300ms ease-out;
+      transition: margin 300ms ease-out;
+  }
+.btn btn-warning btn-lg {
+
+	background-color: rgb(228, 196, 159);
+
+}
+
+ @media (min-width: 765px) {
+
+
+    nav.sidebar:hover{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    
+    nav.sidebar a{
+      padding-right: 13px;
+      font-family: "Old Standard TT", serif;
+      font-size: 20px;
+    }
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+
+
+    nav.sidebar{
+      width: 230px;
+      height: 100%;
+     
+   
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+    {
+       
+    
+    }
+  }
+
+   
+  @media (min-width: 1330px) {
+
+    
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu li a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+
+
+  
+  
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 span { 	
+
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background-color: rgb(0, 0, 0); /* fallback color */
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+	display: none;
+   position: absolute; 
+   top: 360px; 
+   left: 0; 
+   width: 100%; 
+}
